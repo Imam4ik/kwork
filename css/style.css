@@ -486,9 +486,15 @@ body::after	{
 }
 
 
+.info {
+	margin-bottom: 50px;
+}
 
 .info-item {
 	margin-bottom: 32px;
+}
+.info-item:last-child {
+	margin-bottom: 0px;
 }
 .subtitle {
 	display: flex;
