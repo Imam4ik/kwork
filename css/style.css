@@ -256,7 +256,7 @@ body::after	{
 
 .fullscreen {
 	width: 100%;
-	min-height: calc(100vh);
+	min-height: calc(100vh - 80px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -456,7 +456,8 @@ body::after	{
 /* appeal */
 
 .appeal {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+	margin-top: 15px;
 }
 .appeal ._active {
 	transform: translate(0, 0);
@@ -673,7 +674,7 @@ body::after	{
 
 
 .emblem_for_newlyweds {
-	margin-bottom: 167px;
+	margin-bottom: 107px;
 	transform: scale(0.3);
 	opacity: 0;
 	transition: all .5s ease .4s;
