@@ -693,16 +693,28 @@ body::after	{
 	}
 	body{
 		position: initial;
+		background: #fff;
 	}
+	.frame-flowers-top {
+		display: none;
+	}
+	.frame-flowers-bottom {
+		display: none;
+	}
+
 	.min-width{
 		display: flex;
+		flex-direction: column;
 		min-width: 100%;
 		min-height: 100%;
 		position: fixed;
 		justify-content: center;
 		align-items: center;
-		font-size: 30px;
+		font-size: 18px;
 		text-align: center;
 		padding: 0 20px;
+	}
+	.min-width img {
+		width: 100px;
 	}
 }
